@@ -1,0 +1,277 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    
+    header .cta-1{
+        background-color: #fff!important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: #fdcc52;
+    }
+    
+    .navbar-light .navbar-brand:hover,
+    .navbar-light .navbar-brand:focus{
+        color: #fdcc52;
+    }
+    
+    header .nav-link{
+        color: #000!important;
+    }
+    
+    header .nav-link:hover,
+    header .nav-link:focus{
+        color: #000 !important;
+    }
+    
+    header .start-now{
+        text-align: center;
+    }
+    
+    header .start-now h1{
+        font-size: 1.8rem;
+        width: 100%;
+        margin-top: 6.25rem;
+        margin-bottom: 2.5rem;
+        margin-left: 0rem;
+    }
+    
+    header .start-now a{
+        margin-left:0.75rem;
+    }
+    
+    header .start-now img{
+        margin-left: 0rem;
+        margin-top: 4.25rem;
+        width: 80%;
+        
+    }
+    
+    
+    .download h2{
+        font-size: 3.375rem;
+        width:100%;
+    }
+    
+    .download a{
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+    
+    .features img{
+        margin-left: 0rem;
+        width: 80%;
+    }
+    
+    .features .row p{
+        margin-bottom: 4.25rem;
+    }
+    
+    .get-started h2{
+        font-size: 3.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact .social-media a i{
+        margin-right: 0.5rem;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+    header .cta-1{
+        max-width: 100%;
+        background-color: #fff!important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: #fdcc52;
+    }
+    
+    .navbar-light .navbar-brand:hover,
+    .navbar-light .navbar-brand:focus{
+        color: #fdcc52;
+    }
+    
+    header .nav-link{
+        color: #000!important;
+    }
+    
+    header .nav-link:hover,
+    header .nav-link:focus{
+        color: #000 !important;
+    }
+    
+    header .start-now{
+        text-align: center;
+    }
+    
+    header .start-now h1{
+        font-size: 2rem;
+        width: 100%;
+        margin-top: 6.25rem;
+        margin-bottom: 2.5rem;
+        margin-left: 0rem;
+    }
+    
+    header .start-now a{
+        margin-left:0.75rem;
+    }
+    
+    header .start-now img{
+        margin-left: 0rem;
+        margin-top: 4.25rem;
+        width: 80%;
+        
+    }
+    
+    
+    .download h2{
+        font-size: 3.375rem;
+        width:100%;
+    }
+    
+    .download a{
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+    
+    .features img{
+        margin-left: 0rem;
+        width: 80%;
+    }
+    
+    .features .row p{
+        margin-bottom: 4.25rem;
+    }
+    
+    .get-started h2{
+        font-size: 3.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact .social-media a i{
+        margin-right: 0.5rem;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    header .cta-1{
+        max-width: 100%;
+        background-color: #fff!important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .navbar-light .navbar-brand {
+        color: #fdcc52;
+    }
+    
+    .navbar-light .navbar-brand:hover,
+    .navbar-light .navbar-brand:focus{
+        color: #fdcc52;
+    }
+    
+    header .nav-link{
+        color: #000!important;
+    }
+    
+    header .nav-link:hover,
+    header .nav-link:focus{
+        color: #000 !important;
+    }
+    
+    header .start-now{
+        text-align: center;
+    }
+    
+    header .start-now h1{
+        font-size: 2rem;
+        width: 100%;
+        margin-top: 6.25rem;
+        margin-bottom: 2.5rem;
+        margin-left: 0rem;
+    }
+    
+    header .start-now a{
+        margin-left:0.75rem;
+    }
+    
+    header .start-now img{
+        margin-left: 0rem;
+        margin-top: 4.25rem;
+        width: 60%;
+        
+    }
+    
+    
+    .download h2{
+        font-size: 3.375rem;
+        width:100%;
+    }
+    
+    .download a{
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+    
+    .features img{
+        margin-left: 0rem;
+        width: 60%;
+    }
+    
+    .features .row p{
+        margin-bottom: 4.25rem;
+    }
+    
+    .get-started h2{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact .social-media a i{
+        margin-right: 0.5rem;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+    header .start-now h1{
+        font-size: 3.125rem;
+        width: 80%;
+        margin-top: 2.25rem;
+        margin-bottom: 2.5rem;
+        margin-left: 0.75rem;
+    
+    }
+    
+    header .start-now a{
+        margin-left: 0.75rem;
+    }
+    
+    .features .row p{
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
+    }    
+
+    .features .info-1{
+        margin-top: 0.5rem;
+    }
+
+    .features .info-2{
+        margin-top: 2rem;
+    }
+}

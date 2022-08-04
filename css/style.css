@@ -1,0 +1,296 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif, 'Catamaran', sans-serif, 'Muli', sans-serif;
+}
+
+header {
+  background: url(../img/bg-pattern.png),
+    linear-gradient(to left, #583973, #7d3576, #a02e6e, #be2a5e, #d33246) center;
+  padding-bottom: 3rem;
+}
+
+.navbar-light .navbar-brand {
+  color: #fdcc52;
+  font-size: 1.1875rem;
+  letter-spacing: 1px;
+  transition-duration: 0.2s;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: #fff;
+}
+
+header .nav-link {
+  color: rgb(206, 203, 205) !important;
+  font-size: 0.78rem;
+  transition-duration: 0.2s;
+  letter-spacing: 1px;
+}
+
+header .nav-link:hover,
+header .nav-link:focus {
+  color: #fff !important;
+}
+
+header nav .navbar-toggler {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.5rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: #000;
+}
+
+.navbar-toggler-icon {
+  width: 1.3em;
+}
+
+header nav buttonheader nav .navbar-toggler .menu-button {
+  font-size: 0.8rem;
+}
+
+header .start-now h1 {
+  font-size: 3.125rem;
+  width: 70%;
+  margin-top: 6.25rem;
+  margin-bottom: 2.5rem;
+  margin-left: 3.75rem;
+  line-height: 1.3;
+  font-weight: 300;
+  font-family: 'catamaran', sans-serif;
+}
+
+header .start-now a {
+  border-radius: 50px;
+  border-color: #fff;
+  padding: 0.6875rem 2.5rem;
+  font-size: 0.875rem;
+  margin-left: 3.75rem;
+  transition-duration: 0.3s;
+  letter-spacing: 1px;
+}
+
+header .start-now a:hover,
+header .start-now a:focus {
+  background-color: #fdcc52;
+  color: #000 !important;
+  border-color: #fdcc52;
+}
+
+header .start-now img {
+  border-radius: 30px;
+  margin-left: -4.25rem;
+  margin-top: 1.25rem;
+}
+
+.download {
+  padding: 9.375rem 0;
+  background-color: #fdca4c;
+}
+
+.download h2 {
+  font-size: 4.375rem;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 200;
+}
+
+.download p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.download a {
+  display: inline-block;
+}
+
+.download a img {
+  height: 60px;
+}
+
+.features {
+  padding: 6.25rem 0;
+}
+
+.features h2 {
+  font-size: 3.3rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 200;
+}
+
+.features .main-p {
+  font-size: 1.25rem;
+}
+
+.features .main-p:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: rgba(34, 34, 34, 0.1);
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 6.25rem;
+}
+
+.features img {
+  border-radius: 30px;
+  margin-left: -2.25rem;
+}
+
+.features i {
+  font-size: 5rem;
+  color: rgb(185, 24, 99);
+  margin-bottom: 1.2rem;
+}
+
+.features .row h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.features .row p {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.features .info-1 {
+  margin-top: 3rem;
+}
+
+.features .info-2 {
+  margin-top: 5rem;
+}
+
+.get-started {
+  background: url(../img/bg-cta.jpg) center;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+}
+
+.get-started .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 14rem 0;
+  min-height: 700px;
+}
+
+.get-started h2 {
+  font-size: 4.375rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.get-started a {
+  border-radius: 50px;
+  border-color: #fff;
+  padding: 0.6875rem 2.5rem;
+  font-size: 0.875rem;
+  transition-duration: 0.3s;
+  letter-spacing: 1px;
+}
+
+.get-started a:hover,
+.get-started a:focus {
+  background-color: #fdcc52;
+  color: #000 !important;
+  border-color: #fdcc52;
+}
+
+.contact {
+  padding: 6.25rem 0;
+  background-color: #fdcc52;
+}
+
+.contact h2 {
+  font-size: 3.125rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.contact h2 i {
+  color: #dd4b39;
+}
+
+.contact .social-media li {
+  display: inline-block;
+}
+
+.contact .social-media a {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.contact .social-media a i {
+  padding: 1.25rem;
+  margin-right: 1.25rem;
+  width: 5rem;
+  border-radius: 50%;
+  transition-duration: 0.3s;
+}
+
+.contact .social-media a .fa-twitter {
+  background-color: #1da1f2;
+}
+
+.contact .social-media a .fa-twitter:hover {
+  background-color: #0d95e8;
+}
+
+.contact .social-media a .fa-facebook-f {
+  background-color: #3b5998;
+}
+
+.contact .social-media a .fa-facebook-f:hover {
+  background-color: #344e86;
+}
+
+.contact .social-media a .fa-google-plus-g {
+  background-color: #dd4b39;
+}
+
+.contact .social-media a .fa-google-plus-g:hover {
+  background-color: #d73925;
+}
+
+footer {
+  padding: 1.25rem 0;
+  background-color: #222;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8125rem;
+}
+
+footer p {
+  margin-top: 1.5625rem;
+  margin-bottom: 0.5rem;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 1.25rem;
+}
+
+footer li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3) !important;
+  transition-duration: 0.3s;
+}
+
+footer li a:hover,
+footer li a:focus {
+  color: #fdcc52 !important;
+  text-decoration: none;
+}
